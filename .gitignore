@@ -1,0 +1,3 @@
+# ignore without dotfiles
+/**/*
+!.*
