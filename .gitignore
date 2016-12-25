@@ -1,3 +1,12 @@
 # ignore without dotfiles
 /**/*
 !.*
+
+# ignore history files
+*history
+
+# ignore Trash files
+*Trash
+
+# ignore Trash files
+.DS_Store
