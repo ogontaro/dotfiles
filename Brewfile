@@ -52,6 +52,7 @@ brew 'tree'
 brew 'v8'
 brew 'vim'
 brew 'wget'
+brew 'z'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'sanemat/font/ricty', args: ['vim-powerline', 'with-powerline']
