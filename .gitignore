@@ -1,6 +1,7 @@
 # ignore without dotfiles
 /**/*
 !.*
+!Brewfile
 
 # ignore history files
 *history
