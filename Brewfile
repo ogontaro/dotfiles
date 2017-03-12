@@ -1,4 +1,5 @@
 tap 'caskroom/cask'
+tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/services'
@@ -59,14 +60,14 @@ brew 'zsh'
 brew 'zsh-completions'
 brew 'sanemat/font/ricty', args: ['vim-powerline', 'with-powerline']
 cask 'docker'
+cask 'google-japanese-ime'
 mas 'Xcode', id: 497799835
-mas 'Keynote', id: 409183694
 mas 'Fantastical 2', id: 975937182
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'ForkLift', id: 412448059
 mas 'Microsoft OneNote', id: 784801555
-mas 'Quiver', id: 866773894
 mas 'Airmail 3', id: 918858936
+mas 'Quiver', id: 866773894
 mas 'Slack', id: 803453959
 mas 'OmniFocus', id: 867299399
 mas 'Mocha', id: 1128113371
