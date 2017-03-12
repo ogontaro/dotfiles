@@ -39,7 +39,8 @@ brew 'mas'
 brew 'mecab'
 brew 'mecab-ipadic'
 brew 'openssl'
-brew 'mysql'
+brew 'mysql', restart_service: true
+brew 'node'
 brew 'peco'
 brew 'readline'
 brew 'sqlite'
@@ -52,10 +53,12 @@ brew 'tree'
 brew 'v8'
 brew 'vim'
 brew 'wget'
+brew 'yarn'
 brew 'z'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'sanemat/font/ricty', args: ['vim-powerline', 'with-powerline']
+cask 'docker'
 mas 'Xcode', id: 497799835
 mas 'Keynote', id: 409183694
 mas 'Fantastical 2', id: 975937182
