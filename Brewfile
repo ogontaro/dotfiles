@@ -24,12 +24,16 @@ brew 'jpeg'
 brew 'libtiff'
 brew 'libtool'
 brew 'pkg-config'
+brew 'gdbm'
+brew 'openssl'
+brew 'readline'
+brew 'sqlite'
+brew 'python'
 brew 'gobject-introspection'
 brew 'icu4c'
 brew 'harfbuzz'
 brew 'pango'
 brew 'fontforge'
-brew 'gdbm'
 brew 'perl'
 brew 'xz'
 brew 'imagemagick'
@@ -39,13 +43,9 @@ brew 'libyaml'
 brew 'mas'
 brew 'mecab'
 brew 'mecab-ipadic'
-brew 'openssl'
 brew 'mysql', restart_service: true
 brew 'node'
 brew 'peco'
-brew 'readline'
-brew 'sqlite'
-brew 'python'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'ruby'
@@ -58,8 +58,9 @@ brew 'yarn'
 brew 'z'
 brew 'zsh'
 brew 'zsh-completions'
-brew 'sanemat/font/ricty', args: ['vim-powerline', 'with-powerline']
-cask 'docker'
+brew 'sanemat/font/ricty', args: ['with-powerline']
+cask 'dbeaver-community'
+cask 'gimp'
 cask 'google-japanese-ime'
 mas 'Xcode', id: 497799835
 mas 'Fantastical 2', id: 975937182
@@ -69,7 +70,7 @@ mas 'Microsoft OneNote', id: 784801555
 mas 'Airmail 3', id: 918858936
 mas 'Quiver', id: 866773894
 mas 'Slack', id: 803453959
-mas 'OmniFocus', id: 867299399
 mas 'Mocha', id: 1128113371
+mas 'OmniFocus', id: 867299399
 mas 'LINE', id: 539883307
 mas 'BetterSnapTool', id: 417375580
