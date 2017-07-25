@@ -1,76 +1,70 @@
-tap 'caskroom/cask'
-tap 'caskroom/versions'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/services'
-tap 'sanemat/font'
-brew 'autoconf'
-brew 'awscli'
-brew 'libpng'
-brew 'freetype'
-brew 'fontconfig'
-brew 'gettext'
-brew 'libffi'
-brew 'pcre'
-brew 'glib'
-brew 'pixman'
-brew 'cairo'
-brew 'curl'
-brew 'zeromq'
-brew 'czmq'
-brew 'direnv'
-brew 'git'
-brew 'jpeg'
-brew 'libtiff'
-brew 'libtool'
-brew 'pkg-config'
-brew 'gdbm'
-brew 'openssl'
-brew 'readline'
-brew 'sqlite'
-brew 'python'
-brew 'gobject-introspection'
-brew 'icu4c'
-brew 'harfbuzz'
-brew 'pango'
-brew 'fontforge'
-brew 'perl'
-brew 'xz'
-brew 'imagemagick'
-brew 'kubernetes-cli'
-brew 'libsodium'
-brew 'libyaml'
-brew 'mas'
-brew 'mecab'
-brew 'mecab-ipadic'
-brew 'mysql', restart_service: true
-brew 'node'
-brew 'peco'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'ruby'
-brew 'speedtest_cli'
-brew 'tree'
-brew 'v8'
-brew 'vim'
-brew 'wget'
-brew 'yarn'
-brew 'z'
-brew 'zsh'
-brew 'zsh-completions'
-brew 'sanemat/font/ricty', args: ['with-powerline']
-cask 'dbeaver-community'
-cask 'gimp'
-cask 'google-japanese-ime'
-mas 'Xcode', id: 497799835
-mas 'Fantastical 2', id: 975937182
-mas 'Microsoft Remote Desktop', id: 715768417
-mas 'ForkLift', id: 412448059
-mas 'Microsoft OneNote', id: 784801555
-mas 'Airmail 3', id: 918858936
-mas 'Quiver', id: 866773894
-mas 'Slack', id: 803453959
-mas 'Mocha', id: 1128113371
-mas 'OmniFocus', id: 867299399
-mas 'LINE', id: 539883307
-mas 'BetterSnapTool', id: 417375580
+tap "brona/iproute2mac"
+tap "caskroom/cask"
+tap "caskroom/versions"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "sanemat/font"
+brew "autoconf"
+brew "awscli"
+brew "freetype"
+brew "gettext"
+brew "libffi"
+brew "glib"
+brew "pixman"
+brew "chromedriver"
+brew "curl"
+brew "zeromq"
+brew "czmq"
+brew "direnv"
+brew "perl"
+brew "git"
+brew "gdbm"
+brew "readline"
+brew "sqlite"
+brew "python"
+brew "gobject-introspection"
+brew "icu4c"
+brew "harfbuzz"
+brew "jpeg"
+brew "libtool"
+brew "pango"
+brew "fontforge"
+brew "xz"
+brew "imagemagick"
+brew "iproute2mac"
+brew "jpegoptim"
+brew "kubernetes-cli"
+brew "libsodium"
+brew "libyaml"
+brew "mas"
+brew "mecab"
+brew "mecab-ipadic"
+brew "mysql", restart_service: true
+brew "peco"
+brew "rbenv"
+brew "ruby"
+brew "speedtest-cli"
+brew "tree"
+brew "v8"
+brew "vim"
+brew "wget"
+brew "yarn"
+brew "z"
+brew "zsh"
+brew "zsh-completions"
+brew "sanemat/font/ricty", args: ["with-powerline"]
+cask "dbeaver-community"
+cask "gimp"
+cask "google-japanese-ime"
+cask "jetbrains-toolbox"
+mas "BetterSnapTool", id: 417375580
+mas "Fantastical 2", id: 975937182
+mas "ForkLift", id: 412448059
+mas "LINE", id: 539883307
+mas "Microsoft Remote Desktop", id: 715768417
+mas "Mocha", id: 1128113371
+mas "OmniFocus", id: 867299399
+mas "Quiver", id: 866773894
+mas "Spark", id: 1176895641
+mas "Xcode", id: 497799835
