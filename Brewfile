@@ -58,6 +58,7 @@ cask "dbeaver-community"
 cask "gimp"
 cask "google-japanese-ime"
 cask "jetbrains-toolbox"
+cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
 mas "Fantastical 2", id: 975937182
 mas "ForkLift", id: 412448059
