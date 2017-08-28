@@ -57,6 +57,7 @@ brew "sanemat/font/ricty", args: ["with-powerline"]
 cask "dbeaver-community"
 cask "gimp"
 cask "google-japanese-ime"
+cask "intellij-idea"
 cask "jetbrains-toolbox"
 cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
