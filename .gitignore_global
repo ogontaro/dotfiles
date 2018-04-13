@@ -44,3 +44,6 @@ node_modules/
 
 # git hook
 .overcommit.yml
+# bundle path
+vendor/bundle
+.bundle
