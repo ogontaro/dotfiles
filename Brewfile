@@ -56,6 +56,7 @@ cask "gimp"
 cask "google-japanese-ime"
 cask "intellij-idea"
 cask "jetbrains-toolbox"
+cask "rescuetime"
 cask "sourcetree"
 cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
