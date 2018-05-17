@@ -7,9 +7,6 @@ tap "homebrew/services"
 tap "osx-cross/avr"
 tap "sanemat/font"
 brew "autoconf"
-brew "gdbm"
-brew "readline"
-brew "sqlite"
 brew "xz"
 brew "awscli"
 brew "freetype"
@@ -24,7 +21,9 @@ brew "dfu-programmer"
 brew "direnv"
 brew "icu4c"
 brew "harfbuzz"
+brew "jpeg"
 brew "libtool"
+brew "pango"
 brew "fontforge"
 brew "git"
 brew "gobject-introspection"
@@ -32,6 +31,7 @@ brew "imagemagick"
 brew "iproute2mac"
 brew "jpegoptim"
 brew "jq"
+brew "kompose"
 brew "kubernetes-cli"
 brew "libsodium"
 brew "libyaml"
@@ -61,6 +61,7 @@ cask "gimp"
 cask "google-japanese-ime"
 cask "intellij-idea"
 cask "jetbrains-toolbox"
+cask "mysqlworkbench"
 cask "rescuetime"
 cask "sourcetree"
 cask "visual-studio-code"
@@ -68,6 +69,7 @@ mas "BetterSnapTool", id: 417375580
 mas "Fantastical 2", id: 975937182
 mas "ForkLift", id: 412448059
 mas "LINE", id: 539883307
+mas "macOS High Sierra", id: Install
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Mocha", id: 1128113371
 mas "OmniFocus", id: 867299399
