@@ -38,7 +38,7 @@ brew "libyaml"
 brew "mas"
 brew "mecab"
 brew "mecab-ipadic"
-brew "mysql", restart_service: true
+brew "mysql"
 brew "peco"
 brew "perl"
 brew "postgresql"
