@@ -41,6 +41,7 @@ node_modules/
 
 # direnv
 .envrc
+.env
 
 # git hook
 .overcommit.yml
