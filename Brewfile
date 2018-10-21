@@ -59,7 +59,6 @@ cask "dbeaver-community"
 cask "franz"
 cask "gimp"
 cask "google-japanese-ime"
-cask "intellij-idea"
 cask "jetbrains-toolbox"
 cask "mysqlworkbench"
 cask "rescuetime"
@@ -71,7 +70,5 @@ mas "ForkLift", id: 412448059
 mas "LINE", id: 539883307
 mas "macOS High Sierra", id: Install
 mas "Microsoft Remote Desktop", id: 715768417
-mas "Mocha", id: 1128113371
 mas "OmniFocus", id: 867299399
 mas "Quiver", id: 866773894
-mas "Spark", id: 1176895641
