@@ -1,7 +1,7 @@
 tap "brona/iproute2mac"
-tap "caskroom/cask"
-tap "caskroom/versions"
 tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "osx-cross/avr"
@@ -54,12 +54,14 @@ brew "z"
 brew "zsh"
 brew "zsh-completions"
 brew "sanemat/font/ricty", args: ["with-powerline"]
+cask "alfred"
 cask "clipy"
 cask "dbeaver-community"
 cask "franz"
 cask "gimp"
 cask "google-japanese-ime"
 cask "jetbrains-toolbox"
+cask "karabiner-elements"
 cask "mysqlworkbench"
 cask "rescuetime"
 cask "sourcetree"
@@ -68,7 +70,5 @@ mas "BetterSnapTool", id: 417375580
 mas "Fantastical 2", id: 975937182
 mas "ForkLift", id: 412448059
 mas "LINE", id: 539883307
-mas "macOS High Sierra", id: Install
 mas "Microsoft Remote Desktop", id: 715768417
-mas "OmniFocus", id: 867299399
 mas "Quiver", id: 866773894

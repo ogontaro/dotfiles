@@ -1,2 +1,5 @@
 [core]
 	excludesfile = /home/${USERNAME}/.gitignore_global
+[user]
+	name = ogontaro
+	email = ogontaro@gmail.com
