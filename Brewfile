@@ -1,4 +1,5 @@
 tap "brona/iproute2mac"
+tap "eugenmayer/dockersync"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -7,6 +8,7 @@ tap "homebrew/services"
 tap "osx-cross/avr"
 tap "sanemat/font"
 brew "autoconf"
+brew "openssl"
 brew "xz"
 brew "awscli"
 brew "freetype"
@@ -46,6 +48,7 @@ brew "rbenv"
 brew "ruby"
 brew "speedtest-cli"
 brew "tree"
+brew "unison"
 brew "v8"
 brew "vim"
 brew "wget"
@@ -53,6 +56,7 @@ brew "yarn"
 brew "z"
 brew "zsh"
 brew "zsh-completions"
+brew "eugenmayer/dockersync/unox"
 brew "sanemat/font/ricty", args: ["with-powerline"]
 cask "alfred"
 cask "clipy"
@@ -62,13 +66,17 @@ cask "gimp"
 cask "google-japanese-ime"
 cask "intellij-idea"
 cask "karabiner-elements"
+cask "kindle"
 cask "mysqlworkbench"
 cask "rescuetime"
 cask "sourcetree"
 cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
+mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Fantastical 2", id: 975937182
 mas "ForkLift", id: 412448059
+mas "LanScan", id: 472226235
 mas "LINE", id: 539883307
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Quiver", id: 866773894
+mas "Xcode", id: 497799835
