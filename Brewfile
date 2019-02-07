@@ -7,8 +7,8 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "osx-cross/avr"
 tap "sanemat/font"
+tap "vulgo/repo"
 brew "autoconf"
-brew "openssl"
 brew "xz"
 brew "awscli"
 brew "freetype"
@@ -30,6 +30,7 @@ brew "fontforge"
 brew "fswatch"
 brew "git"
 brew "gobject-introspection"
+brew "hadolint"
 brew "imagemagick"
 brew "imagemagick@6"
 brew "iproute2mac"
@@ -46,6 +47,7 @@ brew "mysql"
 brew "peco"
 brew "perl"
 brew "postgresql"
+brew "ruby-build"
 brew "rbenv"
 brew "rsync"
 brew "ruby"
@@ -61,8 +63,11 @@ brew "zsh"
 brew "zsh-completions"
 brew "eugenmayer/dockersync/unox"
 brew "sanemat/font/ricty", args: ["with-powerline"]
+brew "vulgo/repo/webdriver.sh"
 cask "alfred"
+cask "calibre"
 cask "clipy"
+cask "cyberduck"
 cask "dbeaver-community"
 cask "franz"
 cask "gimp"
@@ -73,13 +78,17 @@ cask "kindle"
 cask "mysqlworkbench"
 cask "rescuetime"
 cask "sourcetree"
+cask "tomighty"
+cask "tor-browser"
 cask "visual-studio-code"
 mas "BetterSnapTool", id: 417375580
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Fantastical 2", id: 975937182
+mas "Final Cut Pro", id: 424389933
 mas "ForkLift", id: 412448059
 mas "LanScan", id: 472226235
 mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Quiver", id: 866773894
 mas "Xcode", id: 497799835
