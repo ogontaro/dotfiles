@@ -85,7 +85,6 @@ mas "BetterSnapTool", id: 417375580
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Fantastical 2", id: 975937182
 mas "Final Cut Pro", id: 424389933
-mas "ForkLift", id: 412448059
 mas "LanScan", id: 472226235
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
