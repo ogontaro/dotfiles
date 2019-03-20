@@ -1,4 +1,5 @@
 tap "brona/iproute2mac"
+tap "caskroom/cask"
 tap "eugenmayer/dockersync"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -76,6 +77,7 @@ cask "intellij-idea"
 cask "karabiner-elements"
 cask "kindle"
 cask "mysqlworkbench"
+cask "postman"
 cask "rescuetime"
 cask "sourcetree"
 cask "tomighty"
@@ -91,4 +93,5 @@ mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Quiver", id: 866773894
+mas "Remotix", id: 466261145
 mas "Xcode", id: 497799835
