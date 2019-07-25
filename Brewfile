@@ -67,6 +67,7 @@ cask "calibre"
 cask "clipy"
 cask "cyberduck"
 cask "dbeaver-community"
+cask "fork"
 cask "franz"
 cask "gimp"
 cask "google-japanese-ime"
@@ -85,9 +86,11 @@ cask "tor-browser"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "BetterSnapTool", id: 417375580
+mas "Cinebench", id: 1438772273
 mas "Disk Speed Test", id: 425264550
 mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
+mas "Just Focus", id: 1142151959
 mas "LanScan", id: 472226235
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
