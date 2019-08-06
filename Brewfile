@@ -95,6 +95,7 @@ mas "LanScan", id: 472226235
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 715768417
+mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
 mas "Remotix", id: 466261145
 mas "Screens", id: 1224268771
