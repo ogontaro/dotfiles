@@ -67,7 +67,6 @@ brew "sanemat/font/ricty", args: ["with-powerline"]
 cask "alfred"
 cask "calibre"
 cask "cheatsheet"
-cask "clipy"
 cask "cyberduck"
 cask "dash"
 cask "dbeaver-community"
