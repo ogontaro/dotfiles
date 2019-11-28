@@ -47,6 +47,7 @@ node_modules/
 # docker
 Dockerfile.dev
 docker-compose.override.yml
+docker-compose.override.yml*
 
 # git hook
 .overcommit.yml
