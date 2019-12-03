@@ -18,4 +18,4 @@ source /usr/local/etc/profile.d/z.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-source ~/Dropbox/Applications/Shells/profile
+source ~/GoogleDrive/Applications/Shells/profile
