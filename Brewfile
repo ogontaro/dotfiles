@@ -115,6 +115,7 @@ mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 715768417
 mas "OmniFocus", id: 1346203938
 mas "MindNode", id: 1289197285
+mas "PomoDone App", id: 1096128050
 mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
 mas "Remotix", id: 466261145
