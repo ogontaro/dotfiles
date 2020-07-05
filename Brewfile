@@ -1,6 +1,5 @@
 tap "bibendi/dip"
 tap "brona/iproute2mac"
-tap "caskroom/cask"
 tap "eugenmayer/dockersync"
 tap "homebrew/bundle"
 tap "homebrew/cask"
