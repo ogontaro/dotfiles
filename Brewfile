@@ -1,6 +1,7 @@
 tap "bibendi/dip"
 tap "brona/iproute2mac"
 tap "eugenmayer/dockersync"
+tap "go-delve/delve"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -19,13 +20,17 @@ brew "gettext"
 brew "libffi"
 brew "glib"
 brew "pixman"
+brew "python@3.8"
 brew "cairo"
+brew "cdrtools"
+brew "circleci"
 brew "coreutils"
 brew "curl"
 brew "zeromq"
 brew "czmq"
 brew "dfu-programmer"
 brew "direnv"
+brew "gobject-introspection"
 brew "icu4c"
 brew "harfbuzz"
 brew "jpeg"
@@ -35,14 +40,16 @@ brew "fontforge"
 brew "fswatch"
 brew "git"
 brew "git-flow"
-brew "gobject-introspection"
+brew "grep"
 brew "hadolint"
+brew "libheif"
 brew "imagemagick"
 brew "imagemagick@6"
 brew "iproute2mac"
 brew "jpegoptim"
 brew "jq"
 brew "kompose"
+brew "krb5"
 brew "kubernetes-cli"
 brew "kubectx"
 brew "libsodium"
@@ -56,9 +63,11 @@ brew "perl"
 brew "postgresql"
 brew "rsync"
 brew "ruby"
+brew "rustup-init"
 brew "speedtest-cli"
 brew "terraformer"
 brew "tree"
+brew "ttyd"
 brew "unison"
 brew "v8"
 brew "vim"
@@ -75,14 +84,11 @@ cask "alfred"
 cask "calibre"
 cask "cheatsheet"
 cask "cyberduck"
-cask "dbeaver-community"
 cask "firefox"
 cask "fork"
 cask "franz"
 cask "gimp"
 cask "google-japanese-ime"
-cask "graphiql"
-cask "iina"
 cask "imageoptim"
 cask "intellij-idea"
 cask "istat-menus"
@@ -90,33 +96,33 @@ cask "iterm2"
 cask "karabiner-elements"
 cask "kindle"
 cask "krisp"
+cask "miniconda"
 cask "mysqlworkbench"
 cask "notion"
+cask "obs"
 cask "path-finder"
 cask "postman"
 cask "rescuetime"
 cask "sourcetree"
 cask "switchresx"
-cask "tomighty"
 cask "tor-browser"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "BetterSnapTool", id: 417375580
 mas "Cinebench", id: 1438772273
-mas "com.imagestudiopro.ScreenBrush", id: 1233965871
 mas "Disk Speed Test", id: 425264550
 mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
+mas "Integrity plus", id: 963582854
 mas "KakaoTalk", id: 869223134
+mas "Keynote", id: 409183694
 mas "LanScan", id: 472226235
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 715768417
-mas "OmniFocus", id: 1346203938
-mas "MindNode", id: 1289197285
 mas "PomoDone App", id: 1096128050
 mas "PopClip", id: 445189367
-mas "Quiver", id: 866773894
 mas "Remotix", id: 466261145
+mas "ScreenBrush", id: 1233965871
 mas "Screens", id: 1224268771
 mas "Xcode", id: 497799835
