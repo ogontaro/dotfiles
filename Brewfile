@@ -11,7 +11,9 @@ tap "knative/client"
 tap "knqyf263/utern"
 tap "osx-cross/avr"
 tap "sanemat/font"
+tap "stripe/stripe-cli"
 brew "anyenv"
+brew "jpeg"
 brew "argo"
 brew "argocd"
 brew "autoconf"
@@ -38,13 +40,13 @@ brew "eksctl"
 brew "gobject-introspection"
 brew "icu4c"
 brew "harfbuzz"
-brew "jpeg"
 brew "libtool"
 brew "pango"
 brew "fontforge"
 brew "fswatch"
 brew "git"
 brew "git-flow"
+brew "go"
 brew "grep"
 brew "hadolint"
 brew "hasura-cli"
@@ -67,6 +69,7 @@ brew "libyaml"
 brew "mas"
 brew "mecab"
 brew "mecab-ipadic"
+brew "p7zip"
 brew "peco"
 brew "perl"
 brew "postgresql"
@@ -87,14 +90,15 @@ brew "yarn"
 brew "z"
 brew "zsh"
 brew "zsh-completions"
-brew "bibendi/dip/dip"
 brew "eugenmayer/dockersync/unox"
 brew "knative/client/kn"
 brew "knqyf263/utern/utern"
 brew "sanemat/font/ricty", args: ["with-powerline"]
+brew "stripe/stripe-cli/stripe"
 cask "alfred"
 cask "calibre"
 cask "cheatsheet"
+cask "cscreen"
 cask "cyberduck"
 cask "firefox"
 cask "fork"
@@ -109,6 +113,7 @@ cask "karabiner-elements"
 cask "kindle"
 cask "krisp"
 cask "miniconda"
+cask "ngrok"
 cask "notion"
 cask "obs"
 cask "path-finder"
@@ -127,11 +132,11 @@ mas "Final Cut Pro", id: 424389933
 mas "Integrity plus", id: 963582854
 mas "KakaoTalk", id: 869223134
 mas "Keynote", id: 409183694
+mas "LadioCast", id: 411213048
 mas "LanScan", id: 472226235
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 715768417
-mas "PomoDone App", id: 1096128050
 mas "PopClip", id: 445189367
 mas "Remotix", id: 466261145
 mas "ScreenBrush", id: 1233965871
