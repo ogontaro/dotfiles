@@ -1,4 +1,3 @@
-tap "bibendi/dip"
 tap "brona/iproute2mac"
 tap "eugenmayer/dockersync"
 tap "go-delve/delve"
@@ -52,7 +51,6 @@ brew "hadolint"
 brew "hasura-cli"
 brew "helm"
 brew "libheif"
-brew "python@3.8"
 brew "imagemagick"
 brew "imagemagick@6"
 brew "iproute2mac"
@@ -73,6 +71,7 @@ brew "p7zip"
 brew "peco"
 brew "perl"
 brew "postgresql"
+brew "python@3.8"
 brew "rke"
 brew "rsync"
 brew "ruby"
@@ -96,10 +95,15 @@ brew "knqyf263/utern/utern"
 brew "sanemat/font/ricty", args: ["with-powerline"]
 brew "stripe/stripe-cli/stripe"
 cask "alfred"
+cask "bettertouchtool"
 cask "calibre"
 cask "cheatsheet"
 cask "cscreen"
 cask "cyberduck"
+cask "dash"
+cask "discord"
+cask "docker"
+cask "fig"
 cask "firefox"
 cask "fork"
 cask "franz"
@@ -116,10 +120,11 @@ cask "miniconda"
 cask "ngrok"
 cask "notion"
 cask "obs"
-cask "path-finder"
 cask "postman"
+cask "rambox"
 cask "rescuetime"
 cask "sourcetree"
+cask "spotify"
 cask "switchresx"
 cask "tor-browser"
 cask "visual-studio-code"
@@ -129,7 +134,7 @@ mas "Cinebench", id: 1438772273
 mas "Disk Speed Test", id: 425264550
 mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
-mas "Integrity plus", id: 963582854
+mas "Integrity Plus", id: 963582854
 mas "KakaoTalk", id: 869223134
 mas "Keynote", id: 409183694
 mas "LadioCast", id: 411213048
