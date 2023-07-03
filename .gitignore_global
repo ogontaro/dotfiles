@@ -54,3 +54,7 @@ docker-compose.override.yml*
 # bundle path
 vendor/bundle
 .bundle
+
+# my workspace
+my_workspace/
+my_workspace/*
