@@ -58,3 +58,6 @@ vendor/bundle
 # my workspace
 my_workspace/
 my_workspace/*
+
+# Sync Folder Pro
+.com.greenworldsoft.syncfolderspro
