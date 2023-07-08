@@ -193,6 +193,7 @@ mas "Remotix", id: 466261145
 mas "ScreenBrush", id: 1233965871
 mas "Screens", id: 1224268771
 mas "Snippety", id: 1530751461
+mas "Sync Folders Pro", id: 522706442
 mas "Tailscale", id: 1475387142
 mas "WakeOnCommand", id: 1484204619
 mas "Xcode", id: 497799835
