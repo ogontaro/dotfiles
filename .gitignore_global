@@ -64,3 +64,9 @@ my_workspace/*
 _DelSyncFiles/
 _DelSyncFiles/*
 _DelSyncFiles/**/*
+
+# Taskfile
+Taskfile.dist.yml
+Taskfile.dist.yaml
+taskfile.dist.yml
+taskfile.dist.yaml
