@@ -67,7 +67,7 @@ _DelSyncFiles/**/*
 ._*
 
 # Taskfile
-Taskfile.dist.yml
-Taskfile.dist.yaml
-taskfile.dist.yml
-taskfile.dist.yaml
+Taskfile.yml
+Taskfile.yaml
+taskfile.yml
+taskfile.yaml
