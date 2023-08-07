@@ -1,0 +1,21 @@
+sync:
+  defaults:
+    ignore:
+      vcs: true
+      paths:
+        - ".idea/*"
+        - ".idea/**"
+        - ".git/*"
+        - ".git/**"
+        - "node_modules/*"
+        - "node_modules/**"
+        - "_DelSyncFiles/*"
+        - "_DelSyncFiles/**"
+        - "tmp/*"
+        - "tmp/**"
+        - "log/*"
+        - "log/**"
+        - "logs/*"
+        - "logs/**"
+        - "*.log"
+        - ".DS_Store"
