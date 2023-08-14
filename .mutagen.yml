@@ -1,12 +1,9 @@
 sync:
   defaults:
     ignore:
-      vcs: true
       paths:
         - ".idea/*"
         - ".idea/**"
-        - ".git/*"
-        - ".git/**"
         - "node_modules/*"
         - "node_modules/**"
         - "_DelSyncFiles/*"
