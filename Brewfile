@@ -109,6 +109,7 @@ brew "stern"
 brew "terraform"
 brew "terraformer"
 brew "tfenv", link: false
+brew "tflint"
 brew "tree"
 brew "ttyd"
 brew "unison"
