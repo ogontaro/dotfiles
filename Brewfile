@@ -110,6 +110,7 @@ brew "terraform"
 brew "terraformer"
 brew "tfenv", link: false
 brew "tflint"
+brew "tfsec"
 brew "tree"
 brew "ttyd"
 brew "unison"
