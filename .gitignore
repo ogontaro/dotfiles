@@ -11,3 +11,6 @@
 
 # ignore Trash files
 .DS_Store
+
+# ignore private .gitconfig
+.gitconfig.private
