@@ -115,6 +115,7 @@ brew "tfenv", link: false
 brew "tflint"
 brew "tfsec"
 brew "tree"
+brew "trivy"
 brew "ttyd"
 brew "unison"
 brew "v8"
