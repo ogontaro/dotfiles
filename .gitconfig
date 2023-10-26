@@ -1,5 +1,5 @@
 [core]
-  excludesfile = /Users/ryotaro/.gitignore_global
+  excludesfile = ~/.gitignore_global
 [user]
   name = ogontaro
   email = ogontaro@gmail.com
@@ -10,7 +10,7 @@
   cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
 [commit]
-  template = /Users/ryotaro/.stCommitMsg
+  template = ~/.stCommitMsg
 [include]
   path = ~/.gitconfig.private
 [filter "lfs"]
