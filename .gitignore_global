@@ -51,7 +51,8 @@ docker-compose.override.yml*
 
 # git hook
 .overcommit.yml
-# bundle path
+
+# ruby bundler
 vendor/bundle
 .bundle
 
@@ -59,15 +60,11 @@ vendor/bundle
 my_workspace/
 my_workspace/*
 
-# Sync Folder Pro
-.com.greenworldsoft.syncfolderspro
-_DelSyncFiles/
-_DelSyncFiles/*
-_DelSyncFiles/**/*
-._*
-
 # Taskfile
 Taskfile.yml
 Taskfile.yaml
 taskfile.yml
 taskfile.yaml
+
+# mutagen
+mutagen.yml.lock
