@@ -6,6 +6,8 @@ sync:
         - ".idea/**"
         - "node_modules/*"
         - "node_modules/**"
+        - ".venv/*"
+        - ".venv/**"
         - "_DelSyncFiles/*"
         - "_DelSyncFiles/**"
         - "tmp/*"
