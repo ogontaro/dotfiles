@@ -1,4 +1,3 @@
-set fenc=utf-8
 set nobackup
 set noswapfile
 set autoread
@@ -26,4 +25,10 @@ set wrapscan
 set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-
+call plug#begin()
+Plug 'scrooloose/nerdtree'
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+call plug#end()
+packloadall
+silent! helptags All
