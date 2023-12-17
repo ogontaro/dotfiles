@@ -68,3 +68,8 @@ taskfile.yaml
 
 # mutagen
 mutagen.yml.lock
+
+# conflict
+.conflict/
+.conflict/*
+.conflict/**
