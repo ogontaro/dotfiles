@@ -23,6 +23,7 @@ set smartcase
 set incsearch
 set wrapscan
 set hlsearch
+set clipboard+=unnamed
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 call plug#begin()
