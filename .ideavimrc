@@ -9,3 +9,10 @@ set fileformats=unix,dos,mac
 set clipboard=unnamed
 " 現在のモードをステータスバーに表示
 set showmode
+
+" enable vim surround
+set surround
+
+set easymotion
+" sで開始
+nmap s <Plug>(easymotion-s2)
