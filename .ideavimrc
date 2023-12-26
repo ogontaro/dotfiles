@@ -2,9 +2,11 @@ set encoding=utf-8
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
 
-" noremap! <C-f> <Right>
-" noremap! <C-a> <HOME>
-" noremap! <C-e> <END>
+nnoremap <Tab> >>_
+nnoremap <S-Tab> <<_
+inoremap <S-Tab> <C-D>
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
 
 set clipboard=unnamed
 " 現在のモードをステータスバーに表示
