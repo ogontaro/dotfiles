@@ -4,6 +4,7 @@ set autoread
 set hidden
 set showcmd
 set number
+set autoindent
 set cursorline
 set cursorcolumn
 set virtualedit=onemore
@@ -30,6 +31,18 @@ call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
+Plug 'brglng/vim-im-select'
 call plug#end()
 packloadall
 silent! helptags All
+
+inoremap <silent> <C-p> <Up>
+inoremap <silent> <C-n> <Down>
+inoremap <silent> <C-f> <Right>
+inoremap <silent> <C-b> <Left>
+inoremap <silent> <C-a> <Home>
+inoremap <silent> <C-e> <End>
+inoremap <silent> <C-h> <BS>
+inoremap <silent> <C-d> <Del>
+
+syntax on
