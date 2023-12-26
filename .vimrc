@@ -27,11 +27,14 @@ set hlsearch
 set clipboard+=unnamed
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall | source $MYVIMRC
+endif
+
 call plug#begin()
-Plug 'scrooloose/nerdtree'
-Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
-Plug 'brglng/vim-im-select'
 call plug#end()
 packloadall
 silent! helptags All
