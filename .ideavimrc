@@ -8,7 +8,9 @@ inoremap <S-Tab> <C-D>
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
 
-set clipboard=unnamed
+" クリップボードは共有しない、Ctrl+xで切り取りしないと、ddするたびにレジスタが上書きしてしまう
+" set clipboard=unnamed
+
 " 現在のモードをステータスバーに表示
 set showmode
 
