@@ -110,9 +110,7 @@ brew "skopeo"
 brew "speedtest-cli", link: false
 brew "starship"
 brew "stern"
-brew "terraform"
 brew "terraformer"
-brew "tfenv", link: false
 brew "tflint"
 brew "tmux"
 brew "tree"
