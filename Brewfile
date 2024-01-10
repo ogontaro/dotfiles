@@ -19,8 +19,6 @@ tap "sanemat/font"
 tap "stripe/stripe-cli"
 tap "teamookla/speedtest"
 tap "tilt-dev/tap"
-brew "aicommits"
-brew "anyenv"
 brew "xz"
 brew "ansible"
 brew "ansible-lint"
@@ -108,7 +106,6 @@ brew "python@3.8"
 brew "python@3.9"
 brew "rke"
 brew "rsync"
-brew "rustup-init"
 brew "skopeo"
 brew "speedtest-cli", link: false
 brew "starship"
@@ -117,7 +114,6 @@ brew "terraform"
 brew "terraformer"
 brew "tfenv", link: false
 brew "tflint"
-brew "tfsec"
 brew "tmux"
 brew "tree"
 brew "trivy"
@@ -191,7 +187,6 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "warp"
-mas "1Password 7", id: 1333542190
 mas "AS Timer", id: 512464723
 mas "BetterSnapTool", id: 417375580
 mas "Cinebench", id: 1438772273
