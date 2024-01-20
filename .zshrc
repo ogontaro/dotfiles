@@ -19,8 +19,8 @@ if [[ "$(uname)" = 'Darwin' ]] && [[ "$(uname -m)" = 'x86_64' ]]; then
 
 elif [[ "$(uname)" = 'Darwin' ]] && [[ "$(uname -m)" = 'arm64' ]]; then
   # M1 Mac からパスが変更されているので対応
-  . /opt/homebrew/opt/asdf/libexec/asdf.sh
   source /opt/homebrew/etc/profile.d/z.sh
+  . /opt/homebrew/opt/asdf/libexec/asdf.sh
 fi
 
 
