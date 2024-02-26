@@ -1,6 +1,11 @@
 set encoding=utf-8
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
+set incsearch
+
+" Jで業の連結より優秀
+" https://raw.githubusercontent.com/wiki/JetBrains/ideavim/ideajoin-examples.md
+set ideajoin
 
 nnoremap <Tab> >>_
 nnoremap <S-Tab> <<_
