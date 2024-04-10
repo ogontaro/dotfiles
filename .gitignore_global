@@ -73,3 +73,7 @@ mutagen.yml.lock
 .conflict/
 .conflict/*
 .conflict/**
+.vs-code
+.vs-code/*
+.vs-code/**
+.vs-code/settings.json
