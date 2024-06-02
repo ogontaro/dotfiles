@@ -37,7 +37,7 @@ brew "coreutils"
 brew "libtool"
 brew "asdf"
 brew "python@3.11"
-brew "awscli"
+brew "awscli", link: false
 brew "libssh2"
 brew "bat"
 brew "black"
@@ -55,6 +55,7 @@ brew "libsodium"
 brew "zeromq"
 brew "czmq"
 brew "deno"
+brew "devcontainer"
 brew "dfu-programmer"
 brew "direnv"
 brew "dive"
@@ -195,6 +196,7 @@ cask "miniconda"
 cask "ngrok"
 cask "notion"
 cask "obs"
+cask "orbstack"
 cask "pcloud-drive"
 cask "postman"
 cask "pycharm"
@@ -215,7 +217,6 @@ mas "BetterSnapTool", id: 417375580
 mas "Cinebench", id: 1438772273
 mas "com.joelklabo.Big-Timer", id: 969746649
 mas "Disk Speed Test", id: 425264550
-mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
 mas "ForkLift", id: 412448059
 mas "Integrity Plus", id: 963582854
