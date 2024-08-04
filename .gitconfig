@@ -4,11 +4,11 @@
   name = ogontaro
   email = ogontaro@gmail.com
 [difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path =
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [mergetool "sourcetree"]
-  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
 [commit]
   template = ~/.stCommitMsg
 [include]
@@ -18,3 +18,25 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
+[alias]
+	ss = status
+	br = branch
+	brm = branch -m
+	brd = branch -d
+	brdd = branch -D
+	co = checkout
+	cob = checkout -b
+	adu = add -u
+	adup = add -u -p
+	com = commit
+	mg = merge --no-ff
+	mgff = merge --ff
+	cp = cherry-pick
+	log1 = log -1
+	log2 = log -2
+	log3 = log -3
+	logo = log --oneline
+	logn = log --name-status --oneline
+	firstcom = commit --allow-empty -m \"Initial commit\"
+[credential]
+	helper = "!f() { /home/knife/.vscode-server/bin/89de5a8d4d6205e5b11647eb6a74844ca23d2573/node /tmp/vscode-remote-containers-6037eae5-2948-4819-8559-ef37bb3b4514.js git-credential-helper $*; }; f"
