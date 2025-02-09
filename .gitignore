@@ -5,6 +5,7 @@
 
 # miseは追加する
 .config/mise/**/*
+.config/aerospace/**/*
 
 # ignore history files
 *history
