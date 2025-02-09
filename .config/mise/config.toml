@@ -1,8 +1,9 @@
 [tools]
 # グローバルで使いたいツールを指定します
 # `mise use -g`でも追加できます
-node = 'lts'
-rust = 'stable'
-deno = '2.1.9'
+node = 'latest'
+rust = 'latest'
+deno = 'latest'
 terraform = 'latest'
-ruby = 'ruby-dev'
+python = 'latest'
+ruby = 'latest'
