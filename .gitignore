@@ -3,9 +3,11 @@
 !.*
 !Brewfile
 
-# miseは追加する
-.config/mise/**/*
-.config/aerospace/**/*
+# .configはアプリケーションごとに開放する
+.config/mise/
+.config/mise/*
+!.config/aerospace/
+!.config/aerospace/*
 
 # ignore history files
 *history
