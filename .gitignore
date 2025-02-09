@@ -3,6 +3,9 @@
 !.*
 !Brewfile
 
+# miseは追加する
+.config/mise/**/*
+
 # ignore history files
 *history
 
